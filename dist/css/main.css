@@ -169,7 +169,7 @@ main {
     border: #eece1a 3px solid; }
   .about-info .bio {
     grid-area: bio;
-    font-size: 1.5rem; }
+    font-size: 1.2rem; }
   .about-info .jop-1 {
     grid-area: job1; }
   .about-info .jop-2 {
