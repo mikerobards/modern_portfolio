@@ -88,9 +88,8 @@ main {
     .bio-image {
         grid-area: bioimage;
         margin: auto;
-        // height: 75%;
         border-radius: 50%;
-        border: $secondary-color 3px solid;
+        border: solid 3px $secondary-color;
     }
 
     .bio {
