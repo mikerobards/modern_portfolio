@@ -12,6 +12,7 @@
   "license": "MIT",
   "dependencies": {
     "gh-pages": "^2.0.1",
+    "jshint": "^2.9.7",
     "node-sass": "^4.11.0"
   }
 }

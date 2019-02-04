@@ -181,6 +181,11 @@ main {
     padding: 0.5rem;
     border-bottom: #850000 5px solid; }
 
+#uc {
+  display: block;
+  margin: 5vh auto;
+  width: 75%; }
+
 .projects {
   display: grid;
   grid-gap: 0.7rem;
