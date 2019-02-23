@@ -1,0 +1,124 @@
+body {
+    background-color: tan;
+    background-image: url('https://mikerobards.files.wordpress.com/2017/10/trees-1915245_1920.jpg?w=460');
+}
+
+.container {
+    margin: 100px auto;
+    text-align: center;
+}
+
+.board {
+    width: 600px;
+    height: 600px;
+    margin-top: 50px;
+    margin: 0 auto;
+    border: solid 10px black;
+    border-radius: 600px;
+}
+
+.simon-button {
+    cursor: pointer;
+    margin: 0;
+    float: left;
+    position: relative;
+    width: 290px;
+    height: 290px;
+    border: solid 2px black;
+    z-index: 8;
+}
+
+.red {
+    background: red;
+    border-radius: 0 300px 0 0;
+}
+
+.red-active {
+    background: darkred;
+}
+
+.blue {
+    background: blue;
+    border-radius: 0 0 300px 0;
+}
+
+.blue-active {
+    background: darkblue;
+}
+
+.yellow {
+    background: yellow;
+    border-radius: 0 0 0 300px;
+}
+
+.yellow-active {
+    background: goldenrod;
+}
+
+.green {
+    background: green;
+    border-radius: 300px 0 0 0;
+}
+
+.green-active {
+    background: darkgreen;
+}
+
+.controls {
+   width: 245px;
+   height: 245px;
+   margin-left: 165px;
+   margin-top: 165px;
+   background-color: white;
+   border: solid 10px black;
+   border-radius: 150px;
+   position: absolute;
+   z-index: 10;
+
+}
+
+.brand {
+    margin-top: 30px;
+    font-size: 45px;
+    margin-bottom: 10px;
+    font-family: "Pricedown";
+}
+
+.inline {
+    display: inline-block;
+    vertical-align: middle;
+    
+}
+
+.display {
+    width: 60px;
+    height: 50px;
+    border: solid 2px black;
+    color: whitesmoke;
+    font-size: 30px;
+    background-color: black;
+    border-radius: 10px;
+    margin-top: -10px;
+}
+
+.start-btn, .strict-btn {
+    margin: -10px 0 0 10px;
+    text-align: center;
+    width: 55px;
+    height: 55px;
+    color: whitesmoke;
+    border: solid 4px black;
+    border-radius: 30px;
+    line-height: 45px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.start-btn {
+    background-color: red;
+}
+
+.strict-btn {
+    background-color: yellowgreen;
+}
+
